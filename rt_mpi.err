@@ -1,0 +1,5 @@
+[il-a-01:1606 :0:1606] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x1fdbf28)
+==== backtrace ====
+slurmstepd: error: *** JOB 13968650 ON il-a-01 CANCELLED AT 2021-11-17T20:09:44 ***
+slurmstepd: error: *** STEP 13968650.0 ON il-a-01 CANCELLED AT 2021-11-17T20:09:44 ***
+srun: Job step aborted: Waiting up to 4 seconds for job step to finish.

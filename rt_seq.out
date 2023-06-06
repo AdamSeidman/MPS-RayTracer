@@ -1,0 +1,7 @@
+Scene: Simple Scene
+Width x Height: 200 x 200
+Partitioning scheme: 0
+Number of Processes: 1
+Execution Time: 0.27 seconds
+
+Image will be save to: renders/rt_200x200_seq_p1_111121-145200.png

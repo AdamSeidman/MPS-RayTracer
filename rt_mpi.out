@@ -1,0 +1,27 @@
+Scene: Simple Scene
+Width x Height: 600 x 600
+Partitioning scheme: 1
+Number of Processes: 6
+Dynamic block size: 0 x 0
+Cycle Size: 0
+Finished the switch block in master.cpp!
+Reached the if statement in master.cpp!
+Reached barrier in slave.cpp thread!
+Master received pixels from worker!
+Finish worker!
+Reached barrier in slave.cpp thread!
+Reached barrier in slave.cpp thread!
+Master received pixels from worker!
+Finish worker!
+Reached barrier in slave.cpp thread!
+Reached barrier in slave.cpp thread!
+Master received pixels from worker!
+Finish worker!
+Master received pixels from worker!
+Finish worker!
+Master received pixels from worker!
+Finish worker!
+Finish master!
+Execution Time: 0.871605 seconds
+
+Image will be save to: renders/rt_600x600_stripsHorizontal_p6_111721-200906.png

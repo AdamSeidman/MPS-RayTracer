@@ -1,0 +1,99 @@
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.75\linewidth} % scale 0.9
+    \includegraphics[width=\linewidth]{nmos_circuit.PNG}
+  \end{subfigure}\\
+  \caption{ \textit{NMOS IV}}
+  \label{pic:nmos}
+\end{figure}
+
+Afterward, 
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.75\linewidth} % scale 0.9
+    \includegraphics[width=\linewidth]{inverter_circuit.PNG}
+  \end{subfigure}\\
+  \caption{ \textit{CMOS Inverter}}
+  \label{pic:inverter}
+\end{figure}
+
+Afterward,  $V_{OL}$. \\
+
+\iffalse
+data templates
+\begin{table}[h!]
+  \caption{ \textit{$TABLE_TITLE$}}
+  \label{table:title}
+  \begin{tabular}{c}
+    %\hline
+    tablecontents
+    %\hline
+  \end{tabular}
+\end{table}
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.9\linewidth} % scale 0.9
+    \includegraphics[width=\linewidth]{PATH>JPG}
+  \end{subfigure}\\
+  \caption{ \textit{TITLE}}
+  \label{fig:name}
+\end{figure}
+
+\eq{EQ:equationTitle}{$1.3^5$}{A Generic Caption}
+
+\fi
+
+
+
+For the simulation on the design with the single NMOS transistor,
+the following graph was generated in Figure \ref{pic:nmos_wave}.
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.75\linewidth} % scale 0.9
+    \includegraphics[width=\linewidth]{nmos_wave.PNG}
+  \end{subfigure}\\
+  \caption{ \textit{NMOS IV Output Characteristics}}
+  \label{pic:nmos_wave}
+\end{figure}
+
+The \ref{pic:inverter_wave} 
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.75\linewidth} % scale 0.9
+    \includegraphics[width=\linewidth]{inverter_wave.PNG}
+  \end{subfigure}\\
+  \caption{ \textit{CMOS Inverter - Voltage Transfer Characteristics}}
+  \label{pic:inverter_wave}
+\end{figure}
+
+\vspace*{2mm}
+
+
+\end{enumerate}
+
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.75\linewidth} % scale 0.9
+      \includegraphics[width=\linewidth]{square_wave.PNG}
+    \end{subfigure}\\
+    \caption{ \textit{CMOS Inverter - Transient Analysis}}
+    \label{pic:square_wave}
+  \end{figure}
+
+
+
+  
+  \name\\
+  \vspace*{\baselineskip} % Adds one line of spacing on this line, like the template
+
+
+  table stuff:
+------------------
+[H]
+[!htpb]
+
